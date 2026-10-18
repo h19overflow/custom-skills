@@ -1,0 +1,409 @@
+{
+  "total_unique_skills": 50,
+  "categories": {
+    "01-architecture-and-systems": 13,
+    "02-agent-eval-and-frameworks": 37
+  },
+  "skills": {
+    "agent-architecture-patterns": {
+      "name": "agent-architecture-patterns",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\agent-architecture-patterns",
+      "file_count": 3,
+      "size_bytes": 476136,
+      "description": "Match and compose architectural patterns from The AI Agent Engineer's Guide: 60 Patterns for Building Autonomous Systems. Supports both fast targeted Q&A/triage and full system specs with clean, minimalist Mermaid design candidate diagrams (no code clutter)."
+    },
+    "ai-opportunity-boundary": {
+      "name": "ai-opportunity-boundary",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\ai-opportunity-boundary",
+      "file_count": 1,
+      "size_bytes": 20444,
+      "description": "Use whenever someone wants to discover, evaluate, prioritize, or redesign AI automation opportunities in a process, workflow, task, or recurring decision\u2014even if they say \u201cbuild an AI agent,\u201d provide a large research bundle, ask what is not automated by AI, want to enhance existing automation, or need an ROI/capacity case. Synthesize mixed evidence, quantify workload and human effort, distinguish capacity from savings, test addressability and uncertainty, use credible benchmarks when permitted, and produce a bounded, measurable opportunity and investment map."
+    },
+    "complexity-review": {
+      "name": "complexity-review",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\complexity-review",
+      "file_count": 1,
+      "size_bytes": 6935,
+      "description": "Lightweight post-implementation architecture gate. Evaluates boundary justification, framework necessity, module depth, conjoined helpers, and parallel drift. Use only after non-trivial multi-module changes, new architecture, major refactoring, RAG changes, or agent workflow modifications."
+    },
+    "exception-design": {
+      "name": "exception-design",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\exception-design",
+      "file_count": 1,
+      "size_bytes": 20138,
+      "description": "Design error semantics so callers handle the smallest possible number of exceptional conditions. Define errors out of existence, mask recoverable failures, aggregate at boundaries, and fail fast on corruption. Use when designing, modifying, or reviewing failure semantics, retries, idempotency, and error propagation."
+    },
+    "graphify": {
+      "name": "graphify",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\graphify",
+      "file_count": 9,
+      "size_bytes": 82053,
+      "description": "Use for any question about a codebase, its architecture, file relationships, or project content \u2014 especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools."
+    },
+    "leverage-point-identification": {
+      "name": "leverage-point-identification",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\leverage-point-identification",
+      "file_count": 1,
+      "size_bytes": 22761,
+      "description": "Identify, justify, and prioritize leverage points in an already-mapped system. Use when system stocks, flows, feedback loops, goals, rules, information flows, delays, constraints, paradigms, or system traps are already understood and the objective is to determine where intervention could meaningfully shift system behavior. Requires causal evidence for every proposed leverage point and must distinguish theoretical leverage from leverage accessible to the user."
+    },
+    "module-boundary-design": {
+      "name": "module-boundary-design",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\module-boundary-design",
+      "file_count": 2,
+      "size_bytes": 19857,
+      "description": "Decide whether a software boundary should exist, evaluate whether it hides enough complexity to justify its cost, and determine if an architectural framework (like LangGraph, Temporal, Celery, or Kafka) is genuinely warranted. Use when creating classes, modules, services, repositories, managers, adapters, interfaces, protocols, public APIs, or graph nodes."
+    },
+    "shared-information-design": {
+      "name": "shared-information-design",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\shared-information-design",
+      "file_count": 2,
+      "size_bytes": 11436,
+      "description": "Apply John Ousterhout's shared-information principle to consolidate duplicated knowledge, eliminate parallel implementation drift, and identify deeper shared primitives. Use when finding duplicated structures, synchronized state, multiple modules interpreting the same data, repeated parsing/normalization, cross-module invariants, or deciding between shared primitives and god objects."
+    },
+    "split-or-join-functions": {
+      "name": "split-or-join-functions",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\split-or-join-functions",
+      "file_count": 1,
+      "size_bytes": 5610,
+      "description": "Make deliberate function extraction and inlining decisions based on software complexity rather than line count. Prevents fragmentation into one-use helpers and conjoined methods. Use when refactoring large functions, extracting methods, reviewing private helper functions, breaking workflows into steps, or inlining tightly coupled code."
+    },
+    "system-trap-identification": {
+      "name": "system-trap-identification",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\system-trap-identification",
+      "file_count": 1,
+      "size_bytes": 14542,
+      "description": "Identify recurring system traps in an already-mapped system. Use when stocks, flows, feedback loops, actors, goals, incentives, constraints, and delays are already known and the task is to determine whether the observed structure matches known system traps. Do not remap the system and do not jump directly to solutions."
+    },
+    "systems-thinking-analyst": {
+      "name": "systems-thinking-analyst",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\systems-thinking-analyst",
+      "file_count": 4,
+      "size_bytes": 70554,
+      "description": "Analyze software architectures, AI products, organizations, and workflows using Donella Meadows systems thinking: stocks, flows, feedback loops, delays, traps, and high-leverage interventions."
+    },
+    "windows-secure-env-handoff": {
+      "name": "windows-secure-env-handoff",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\windows-secure-env-handoff",
+      "file_count": 1,
+      "size_bytes": 1122,
+      "description": "Safely copy a dotenv secret into Windows User environment variables for new OMP or CLI processes without exposing the value."
+    },
+    "windows-startup-cleanup": {
+      "name": "windows-startup-cleanup",
+      "category": "01-architecture-and-systems",
+      "workspace_path": "C:\\Users\\User\\.omp\\agent\\managed-skills\\windows-startup-cleanup",
+      "file_count": 1,
+      "size_bytes": 1149,
+      "description": "Use when scanning and safely removing a Windows startup script or launcher outside a project repository."
+    },
+    "bottom-up-teach": {
+      "name": "bottom-up-teach",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\bottom-up-teach",
+      "file_count": 1,
+      "size_bytes": 4166,
+      "description": "Teaches difficult subjects from first principles so the learner can derive rather than memorize them. Use when the user asks to learn deeply, understand from scratch, follow a bottom-up path, build a curriculum, or work through an unfamiliar technical field."
+    },
+    "ci-eval-runner": {
+      "name": "ci-eval-runner",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\ci-eval-runner",
+      "file_count": 3,
+      "size_bytes": 16739,
+      "description": "Configures, triggers, and automates agent regression evaluation experiments in local test runners, pre-merge hooks, and CI/CD pipelines (GitHub Actions, GitLab CI). Enforces contract thresholds (pass rate, latency ceilings, canary leaks, zero-blocker rules) to gate deployments and PR merges."
+    },
+    "dataset-benchmark-builder": {
+      "name": "dataset-benchmark-builder",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\dataset-benchmark-builder",
+      "file_count": 3,
+      "size_bytes": 21100,
+      "description": "Constructs, generates, and synchronizes layered golden evaluation datasets, adversarial test cases, tool-recovery fixtures, and RAG distraction benchmarks into local versioned JSONL files and hosted platforms (Langfuse, LangSmith, Arize Phoenix). Use whenever generating benchmark suites, synthesizing test fixtures from contracts, or publishing datasets to evaluation backends."
+    },
+    "deep-agents-core": {
+      "name": "deep-agents-core",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\deep-agents-core",
+      "file_count": 1,
+      "size_bytes": 12729,
+      "description": "INVOKE THIS SKILL when building ANY Deep Agents application. Covers create_deep_agent(), harness architecture, SKILL.md format, and configuration options."
+    },
+    "deep-agents-memory": {
+      "name": "deep-agents-memory",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\deep-agents-memory",
+      "file_count": 1,
+      "size_bytes": 10278,
+      "description": "INVOKE THIS SKILL when your Deep Agent needs memory, persistence, or filesystem access. Covers StateBackend (ephemeral), StoreBackend (persistent), FilesystemMiddleware, and CompositeBackend for routing."
+    },
+    "deep-agents-orchestration": {
+      "name": "deep-agents-orchestration",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\deep-agents-orchestration",
+      "file_count": 1,
+      "size_bytes": 14230,
+      "description": "INVOKE THIS SKILL when using subagents, task planning, or human approval in Deep Agents. Covers SubAgentMiddleware, TodoList for planning, and HITL interrupts."
+    },
+    "deepagents-python-quickstart": {
+      "name": "deepagents-python-quickstart",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\deepagents-python-quickstart",
+      "file_count": 1,
+      "size_bytes": 2245,
+      "description": "Scaffold a minimal local Deep Agent in Python by following the official quickstart, using provider-native web search instead of Tavily. Use when the user wants to quickly build or try a Deep Agent locally."
+    },
+    "deepagents-typescript-quickstart": {
+      "name": "deepagents-typescript-quickstart",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\deepagents-typescript-quickstart",
+      "file_count": 1,
+      "size_bytes": 2240,
+      "description": "Scaffold a minimal local Deep Agent in TypeScript by following the official quickstart, using provider-native web search instead of Tavily. Use when the user wants to quickly build or try a Deep Agent locally."
+    },
+    "ecosystem-primer": {
+      "name": "ecosystem-primer",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\ecosystem-primer",
+      "file_count": 1,
+      "size_bytes": 8321,
+      "description": "INVOKE FIRST for any LangChain / LangGraph / Deep Agents agent building project before consulting other skills or writing any agent code. Required starting point for up to date info on framework selection (LangChain vs LangGraph vs Deep Agents vs hybrid composition), agent patterns, install, environment setup, and which skill to load next."
+    },
+    "eli5": {
+      "name": "eli5",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\eli5",
+      "file_count": 1,
+      "size_bytes": 1981,
+      "description": "Explains unfamiliar or confusing topics in very simple language without losing correctness. This skill should be used when the user says \"ELI5,\" \"explain like I am 5,\" \"I don't understand,\" \"I am confused,\" \"make it simpler,\" or asks for a beginner-friendly breakdown."
+    },
+    "eval-contract-definer": {
+      "name": "eval-contract-definer",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\eval-contract-definer",
+      "file_count": 2,
+      "size_bytes": 17634,
+      "description": "Formalize agent requirements, operational boundaries, edge-case taxonomies, and layer-separated evaluation specifications into machine-readable YAML/JSON contracts. Use whenever designing a new agent, auditing agent safety/behavior, establishing evaluation baselines, or preparing test harnesses for prompts, RAG pipelines, or multi-step trajectories."
+    },
+    "eval-engineering": {
+      "name": "eval-engineering",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\eval-engineering",
+      "file_count": 21,
+      "size_bytes": 170866,
+      "description": "Inspect an agent repository and optional traces, interview the user, write reviewed Task Specs, build and audit Harbor tasks, and bootstrap reusable project World Knowledge Skills. Use for agent evals, benchmark design, Task generation, controlled Environments, synthetic data, Verifiers, Harbor runs, calibration, or continuous benchmark maintenance."
+    },
+    "eval-scorer-builder": {
+      "name": "eval-scorer-builder",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\eval-scorer-builder",
+      "file_count": 2,
+      "size_bytes": 25404,
+      "description": "Builds multi-tier evaluation engines, deterministic assertions, trajectory state-machine linters, and Agent-as-a-Judge evaluators equipped with environment inspection tools. Use whenever turning evaluation contracts into executable scorers, authoring LLM judges, validating agent tool trajectories, or measuring agent compliance."
+    },
+    "find-skills": {
+      "name": "find-skills",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\find-skills",
+      "file_count": 1,
+      "size_bytes": 5472,
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+    },
+    "hosted-eval-provisioner": {
+      "name": "hosted-eval-provisioner",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\hosted-eval-provisioner",
+      "file_count": 2,
+      "size_bytes": 16551,
+      "description": "Provisions, synchronizes, and registers multi-tier evaluation rules, deterministic code checkers, trajectory judges, and datasets directly to hosted observability platforms (Langfuse, LangSmith, or Arize Phoenix). Use whenever deploying evaluation contracts to remote backends, configuring online or offline evaluation rules via MCP or SDK, or offloading local eval runners to cloud evaluation platforms."
+    },
+    "langchain-dependencies": {
+      "name": "langchain-dependencies",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langchain-dependencies",
+      "file_count": 1,
+      "size_bytes": 15025,
+      "description": "INVOKE THIS SKILL when setting up a new project or when asked about package versions, installation, or dependency management for LangChain, LangGraph, LangSmith, or Deep Agents. Covers required packages, minimum versions, environment requirements, versioning best practices, and common community tool packages for both Python and TypeScript."
+    },
+    "langchain-fundamentals": {
+      "name": "langchain-fundamentals",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langchain-fundamentals",
+      "file_count": 1,
+      "size_bytes": 12936,
+      "description": "Create LangChain agents with create_agent, define tools, and use middleware for human-in-the-loop and error handling."
+    },
+    "langchain-middleware": {
+      "name": "langchain-middleware",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langchain-middleware",
+      "file_count": 1,
+      "size_bytes": 11169,
+      "description": "INVOKE THIS SKILL when you need human-in-the-loop approval, custom middleware, or structured output. Covers HumanInTheLoopMiddleware for human approval of dangerous tool calls, creating custom middleware with hooks, Command resume patterns, and structured output with Pydantic/Zod."
+    },
+    "langchain-python-quickstart": {
+      "name": "langchain-python-quickstart",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langchain-python-quickstart",
+      "file_count": 1,
+      "size_bytes": 1509,
+      "description": "Scaffold a minimal local LangChain agent in Python by following the official quickstart. Use when the user wants to quickly build or try a LangChain agent locally."
+    },
+    "langchain-rag": {
+      "name": "langchain-rag",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langchain-rag",
+      "file_count": 1,
+      "size_bytes": 15999,
+      "description": "INVOKE THIS SKILL when building ANY retrieval-augmented generation (RAG) system. Covers document loaders, RecursiveCharacterTextSplitter, embeddings (OpenAI), and vector stores (Chroma, FAISS, Pinecone)."
+    },
+    "langchain-typescript-quickstart": {
+      "name": "langchain-typescript-quickstart",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langchain-typescript-quickstart",
+      "file_count": 1,
+      "size_bytes": 1543,
+      "description": "Scaffold a minimal local LangChain agent in TypeScript by following the official quickstart. Use when the user wants to quickly build or try a LangChain agent locally."
+    },
+    "langfuse": {
+      "name": "langfuse",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langfuse",
+      "file_count": 13,
+      "size_bytes": 58749,
+      "description": ">-"
+    },
+    "langgraph-cli": {
+      "name": "langgraph-cli",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langgraph-cli",
+      "file_count": 1,
+      "size_bytes": 11436,
+      "description": "INVOKE THIS SKILL when using the langgraph CLI to scaffold, develop, build, or deploy LangGraph applications. Covers langgraph new, dev, build, up, deploy, and langgraph.json configuration."
+    },
+    "langgraph-fundamentals": {
+      "name": "langgraph-fundamentals",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langgraph-fundamentals",
+      "file_count": 3,
+      "size_bytes": 25031,
+      "description": "INVOKE THIS SKILL when writing ANY LangGraph code. Covers StateGraph, state schemas, nodes, edges, Command, Send, invoke, streaming, and error handling."
+    },
+    "langgraph-human-in-the-loop": {
+      "name": "langgraph-human-in-the-loop",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langgraph-human-in-the-loop",
+      "file_count": 1,
+      "size_bytes": 16960,
+      "description": "INVOKE THIS SKILL when implementing human-in-the-loop patterns, pausing for approval, or handling errors in LangGraph. Covers interrupt(), Command(resume=...), approval/validation workflows, and the 4-tier error handling strategy."
+    },
+    "langgraph-persistence": {
+      "name": "langgraph-persistence",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langgraph-persistence",
+      "file_count": 1,
+      "size_bytes": 19114,
+      "description": "INVOKE THIS SKILL when your LangGraph needs to persist state, remember conversations, travel through history, or configure subgraph checkpointer scoping. Covers checkpointers, thread_id, time travel, Store, and subgraph persistence modes."
+    },
+    "langgraph-python-quickstart": {
+      "name": "langgraph-python-quickstart",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langgraph-python-quickstart",
+      "file_count": 1,
+      "size_bytes": 1857,
+      "description": "Scaffold a minimal local LangGraph agent in Python by following the official quickstart. Use when the user wants to quickly build or try a LangGraph agent locally."
+    },
+    "langgraph-typescript-quickstart": {
+      "name": "langgraph-typescript-quickstart",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langgraph-typescript-quickstart",
+      "file_count": 1,
+      "size_bytes": 1862,
+      "description": "Scaffold a minimal local LangGraph agent in TypeScript by following the official quickstart. Use when the user wants to quickly build or try a LangGraph agent locally."
+    },
+    "langsmith-online-eval-engineering": {
+      "name": "langsmith-online-eval-engineering",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\langsmith-online-eval-engineering",
+      "file_count": 4,
+      "size_bytes": 24918,
+      "description": "Iteratively inspect traces, interview the user, and create LangSmith online evaluators one at a time. Use specifically for creating online evaluators for use within LangSmith -- use \"eval-engineering\" for Harbor-style online evaluations."
+    },
+    "learn-visualize": {
+      "name": "learn-visualize",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\learn-visualize",
+      "file_count": 1,
+      "size_bytes": 1865,
+      "description": "Adds one correct, minimal visual when a lesson is genuinely clearer through structure, direction, sequence, state, hierarchy, comparison, or geometry. Use with bottom-up teaching when prose or one equation cannot carry the idea cleanly."
+    },
+    "managed-deep-agents": {
+      "name": "managed-deep-agents",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\managed-deep-agents",
+      "file_count": 1,
+      "size_bytes": 30457,
+      "description": "INVOKE THIS SKILL when building, testing, or deploying Managed Deep Agents in LangSmith with the mda CLI. Walks a user through their first agent end to end \u2014 interviewing them about what they want to build, mapping it onto what MDA can actually do, then scaffolding and deploying it. Covers the file-based project layout; define_deep_agent / defineDeepAgent; instructions, skills, memory, identity, tools, middleware, sandboxes, schedules, channels, and evals; mda init/build/dev/deploy/logs/delete; and Context Hub."
+    },
+    "microsoft-foundry": {
+      "name": "microsoft-foundry",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\microsoft-foundry",
+      "file_count": 194,
+      "size_bytes": 1216222,
+      "description": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end. USE FOR: foundry, azd ai agent, azd provision/deploy, hosted agent scaffold/develop/run/deploy/troubleshoot, prompt agent create, create agent, update agent, add tool to agent, invoke agent, agent.yaml, agent insights, pull agent insights, evaluate agent, batch eval, continuous eval, continuous monitoring, agent CI/CD, optimize prompt, improve prompt, prompt optimizer, optimize agent instructions, Agent Optimizer scaffold, dataset curation from traces, deploy model, model fine-tuning (SFT/DPO/RFT), Foundry project, RBAC, role assignment, permissions, quota, capacity, region, deployment failure, AI Services, create Foundry resource, knowledge index, customize deployment, onboard, availability, training-data, grader, distillation, large file upload. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare)."
+    },
+    "prompt-optimization": {
+      "name": "prompt-optimization",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\prompt-optimization",
+      "file_count": 5,
+      "size_bytes": 51972,
+      "description": "This skill implements the DSPy eval-optimize-eval workflow for systematically optimizing LLM prompts. Use when the user wants to improve prompt performance through data-driven optimization, create few-shot demonstrations, or generate production-ready prompts for integration with LangChain or other frameworks. The skill outputs exportable prompts (instructions + few-shot demos) as the final deliverable, not DSPy-specific saved files."
+    },
+    "skill-creator": {
+      "name": "skill-creator",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\skill-creator",
+      "file_count": 18,
+      "size_bytes": 230646,
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
+    },
+    "swarm": {
+      "name": "swarm",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\swarm",
+      "file_count": 9,
+      "size_bytes": 67388,
+      "description": ">-"
+    },
+    "trace-feedback-miner": {
+      "name": "trace-feedback-miner",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\trace-feedback-miner",
+      "file_count": 2,
+      "size_bytes": 13979,
+      "description": "Connects via MCP or API to observability platforms (Arize Phoenix, Langfuse, LangSmith) or runtime trace dumps to mine failing production traces, extract reproducing trajectories, and synthesize them into versioned regression test fixtures. Use whenever triaging production agent failures, closing the eval loop, converting runtime anomalies into regression tests, or mining edge cases."
+    },
+    "trace-observability-integrator": {
+      "name": "trace-observability-integrator",
+      "category": "02-agent-eval-and-frameworks",
+      "workspace_path": "C:\\Users\\User\\.agents\\skills\\trace-observability-integrator",
+      "file_count": 6,
+      "size_bytes": 23956,
+      "description": "Instruments agent workflows with standard OpenInference / OpenTelemetry distributed tracing and configures MCP _meta context propagation across Langfuse, Arize Phoenix, and LangSmith. Use whenever instrumenting agent codebases, setting up distributed tracing across client-server MCP tools, capturing tool call spans, or integrating OTLP collectors."
+    }
+  }
+}
