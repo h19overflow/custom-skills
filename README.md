@@ -12,11 +12,11 @@ All other skill classes have been removed:
 
 ## Overview
 
-- **Total Core Engineering Skills**: 50
+- **Total Core Engineering Skills**: 61
 - **Categorization**:
   1. `01-architecture-and-systems`: 13 skills (OMP managed)
   2. `02-agent-eval-and-frameworks`: 37 skills (Canonical agent engineering suite)
-
+  3. `03-google-adk`: 11 skills (Google Agent Development Kit suite)
 ---
 
 ## Directory Layout
@@ -29,11 +29,10 @@ custom-skills/
 │
 ├── by-category/
 │   ├── 01-architecture-and-systems/   # Systems thinking, complexity review, failure semantics
-│   └── 02-agent-eval-and-frameworks/  # 6-phase evaluation lifecycle & Deep Agents/LangChain
+│   ├── 02-agent-eval-and-frameworks/  # 6-phase evaluation lifecycle & Deep Agents/LangChain
+│   └── 03-google-adk/                 # Google Agent Development Kit (ADK) developer suite
 │
-└── skills/                            # Flat library of all 50 skills (ready to drop into any agent)
-    ├── <skill-name>/
-    └── ...
+└── skills/                            # Flat library of all 61 skills (ready to drop into any agent)
 ```
 
 ---
@@ -44,7 +43,8 @@ custom-skills/
 `agent-architecture-patterns`, `ai-opportunity-boundary`, `complexity-review`, `exception-design`, `graphify`, `leverage-point-identification`, `module-boundary-design`, `shared-information-design` ... and 5 more
 ### 02-agent-eval-and-frameworks (37 skills)
 `bottom-up-teach`, `ci-eval-runner`, `dataset-benchmark-builder`, `deep-agents-core`, `deep-agents-memory`, `deep-agents-orchestration`, `deepagents-python-quickstart`, `deepagents-typescript-quickstart` ... and 29 more
-
+### 03-google-adk (11 skills)
+`adk-agent-builder`, `adk-architecture`, `adk-debug`, `adk-git`, `adk-review`, `adk-sample-creator`, `adk-setup`, `adk-style`, `adk-unit-design`, `adk-unit-guide`, `adk-verify-snippets`
 
 ---
 
@@ -91,6 +91,15 @@ custom-skills/
 - `prompt-optimization`: DSPy eval-optimize-eval loop.
 - `skill-creator`: Creating, optimizing, and testing agent skills.
 - `swarm`: Parallel independent task dispatching.
+
+### 4. Google Agent Development Kit (ADK)
+- `adk-agent-builder`: Builds ADK Python agents: LLM agents with tools, graph workflows of function and agent nodes.
+- `adk-architecture`: Node and graph execution model, Context and Event flow, checkpoint and resume.
+- `adk-debug`: Diagnoses sessions, events, tool calls, and model requests.
+- `adk-sample-creator`: Scaffolds new sample agents in the ADK Python repository.
+- `adk-style`: Codebase conventions, private-by-default file visibility, typing, and docstrings.
+- `adk-unit-design` & `adk-unit-guide`: As-built architecture docs and runnable developer guides.
+- `adk-verify-snippets`: Compiles and runs Markdown Python code blocks to ensure accuracy.
 
 ---
 
